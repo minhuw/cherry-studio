@@ -212,7 +212,7 @@ const AddKnowledgeItem = styled.div`
   justify-content: space-between;
   padding: 7px 12px;
   position: relative;
-  font-family: Ubuntu;
+  font-family: var(--font-family);
   border-radius: var(--list-item-border-radius);
   border: 0.5px solid transparent;
   cursor: pointer;
