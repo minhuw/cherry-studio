@@ -150,11 +150,11 @@ export const BaseTypography = styled(Box)<{
 `
 
 export const TypographyNormal = styled(BaseTypography)`
-  font-family: 'Ubuntu';
+  font-family: 'var(--font-family)';
 `
 
 export const TypographyBold = styled(BaseTypography)`
-  font-family: 'Ubuntu';
+  font-family: 'var(--font-family)';
   font-weight: bold;
 `
 
