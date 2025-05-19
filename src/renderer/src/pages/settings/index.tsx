@@ -12,6 +12,7 @@ export const SettingContainer = styled.div<{ theme?: ThemeMode }>`
   padding-top: 15px;
   padding-bottom: 75px;
   overflow-y: scroll;
+  font-family: var(--font-family);
   background: ${(props) => (props.theme === 'dark' ? 'transparent' : 'var(--color-background-soft)')};
 
   &::-webkit-scrollbar {

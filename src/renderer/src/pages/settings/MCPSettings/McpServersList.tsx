@@ -228,6 +228,7 @@ const ServerName = styled.div`
 const ServerNameText = styled.span`
   font-size: 15px;
   font-weight: 500;
+  font-family: var(--font-family);
 `
 
 const StatusIndicator = styled.div`

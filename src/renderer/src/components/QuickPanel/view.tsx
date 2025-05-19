@@ -647,6 +647,8 @@ const QuickPanelItem = styled.div`
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.1s ease;
+  margin-bottom: 1px;
+  font-family: var(--font-family);
   &.selected {
     background-color: var(--selected-color);
     &.focused {
